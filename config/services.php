@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    'openai' => [
+        'api_key' => env('OPENAI_API_KEY'),
+        'organization' => env('OPENAI_ORGANIZATION'),
+    ],
+
+    'doit' => [
+        'api_url' => env('DOIT_API_URL'),
+        'api_key' => env('DOIT_API_KEY'),
+    ],
+
 ];
