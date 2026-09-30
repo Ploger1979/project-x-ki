@@ -1,7 +1,7 @@
 <template>
   <div
     class="min-h-screen flex flex-col items-center justify-between relative overflow-hidden font-sans select-none"
-    style="background-image: url('/images/image-4-pro.png'); background-size: cover; background-position: center center; background-repeat: no-repeat;"
+    style="background-image: url('/images/image 4.png'); background-size: cover; background-position: left 15%; background-repeat: no-repeat;"
   >
     <!-- Subtle overlay for text readability while keeping image natural -->
     <div class="absolute inset-0 bg-black/10 pointer-events-none"></div>
@@ -27,26 +27,27 @@
     <!-- Main Hero: "Willkommen bei Enodia Software" -->
     <main class="relative z-10 flex flex-col items-center justify-center text-center px-4 my-auto">
       <h1 
-        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-wide drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] animate-fade-in"
+        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4 tracking-wide drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] animate-fade-in"
       >
         Willkommen bei Enodia Software
       </h1>
 
-      <p class="text-white/90 text-lg md:text-xl font-medium max-w-xl mb-4 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+      <p class="text-white/90 text-lg md:text-xl font-medium max-w-xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
         KI-gestütztes Ticket-Management System
       </p>
     </main>
 
-    <!-- Footer: Enodia Software Logo without white background -->
-    <footer class="relative z-10 w-full flex flex-col items-center pb-8 pt-4">
-      <div class="relative group cursor-pointer">
+    <!-- Footer: Official Enodia Logo in White + Enodia Software 2025 -->
+    <footer class="relative z-10 w-full flex flex-col items-center pb-6 pt-2">
+      <div class="flex flex-col items-center cursor-pointer group">
         <img
-          src="/images/enodia-logo-clean.png"
+          src="/images/enodia-logo-white.png"
           alt="Enodia Software"
-          class="h-20 md:h-24 object-contain drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-all duration-300"
+          class="h-20 md:h-28 object-contain drop-shadow-[0_4px_16px_rgba(0,0,0,0.8)] group-hover:scale-105 transition-all duration-300"
         />
-        <!-- Subtle pulsing glow under logo -->
-        <div class="absolute -inset-2 bg-teal-400/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+        <div id="footer-info" class="font-bold text-xl md:text-2xl text-white tracking-wide mt-1 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+          Enodia Software 2025
+        </div>
       </div>
     </footer>
   </div>
