@@ -1,7 +1,8 @@
 # 🎫 Project-X KI — KI-gestütztes Ticket-Management System
 
 <p align="center">
-  <img src="images/Project-X.png" alt="Project-X KI - Enodia Software" width="100%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
+<img width="1909" height="910" alt="Project-X" src="https://github.com/user-attachments/assets/4efc9443-c045-407e-9327-5f19b3541c00" />
+
 </p>
 
 <p align="center">
