@@ -1,4 +1,4 @@
-# 🎫 Project-X — KI-gestütztes Ticket-Management System
+# 🎫 Project-X-KI-gestütztes Ticket-Management System
 
 <p align="center">
 <img width="1909" height="910" alt="Project-X" src="https://github.com/user-attachments/assets/4efc9443-c045-407e-9327-5f19b3541c00" />
