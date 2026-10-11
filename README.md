@@ -1,66 +1,122 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎫 Project-X KI — KI-gestütztes Ticket-Management System
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="images/Project-X.png" alt="Project-X KI - Enodia Software" width="100%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
 </p>
 
-## About Laravel
+<p align="center">
+  <strong>Ein intelligentes, KI-gestütztes IT-Ticket- und Kunden-Management-System</strong><br>
+  Entwickelt im Rahmen des IHK-Abschlussprojekts (Fachinformatiker für Anwendungsentwicklung) bei der <strong>Enodia Software GmbH</strong>.
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="https://project-x-ki.laravel.cloud/"><img src="https://img.shields.io/badge/Live%20Demo-project--x--ki.laravel.cloud-blue?style=for-the-badge&logo=google-chrome" alt="Live Demo" /></a>
+  <a href="https://laravel.com/"><img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 11" /></a>
+  <a href="https://inertiajs.com/"><img src="https://img.shields.io/badge/Inertia.js-Modern%20Monolith-9553E9?style=for-the-badge&logo=inertia" alt="Inertia.js" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="https://php.net/"><img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.2+" /></a>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🌟 Über das Projekt (About the Project)
 
-## Learning Laravel
+**Project-X KI** ist eine moderne Enterprise-Webanwendung zur Automatisierung und Optimierung von IT-Supportprozessen. Das System unterstützt Support-Teams und Administratoren durch intelligente KI-Funktionen bei der Analyse, Priorisierung und Bearbeitung von Kundenanfragen.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Das Projekt entstand als praxisnahe Abschlussarbeit für die **IHK-Prüfung** (Fachinformatiker Anwendungsentwicklung) in Kooperation mit der **Enodia Software GmbH**.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+> 🔒 **Hinweis zum Datenschutz (DSGVO / GDPR Compliance):**  
+> Zum Schutz interner Unternehmensdaten und zur Einhaltung der Datenschutz-Grundverordnung (DSGVO) läuft die öffentliche Live-Demo in einer **Sandbox-Umgebung mit sicheren, synthetischen Testdaten (Mock Data)**. Sämtliche Ticketinhalte, Kundennamen und Kontaktdaten sind fiktiv.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🚀 Live Demo
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **URL:** [https://project-x-ki.laravel.cloud/](https://project-x-ki.laravel.cloud/)
+- **Hosting:** Laravel Cloud
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## ✨ Kernfunktionen (Key Features)
 
-## Contributing
+### 🧠 1. KI-gestützte Ticket-Analyse (`tickets.analyse`)
+- **Automatische Klassifizierung:** Erkennung von Fehlerkategorie, Dringlichkeit und Sentiment des Kunden.
+- **Intelligente Lösungsvorschläge:** KI-basierte Vorab-Analyse zur Beschleunigung der Bearbeitungszeit.
+- **Dringlichkeits-Scoring:** Automatische Zuweisung von Prioritäten (Low, Medium, High, Critical).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🎫 2. Ticket-Lebenszyklus-Management (`tickets.list`, `tickets.search`)
+- Vollständiges Ticket-Tracking vom Eingang bis zum Abschluss.
+- Leistungsstarke Volltextsuche und Filterung nach Status, Kunde und Bearbeiter.
+- Status-Workflows: *Offen*, *In Bearbeitung*, *Warten auf Kunde*, *Gelöst*.
 
-## Code of Conduct
+### 👥 3. Kundenverwaltung (`kunden.list`)
+- Übersicht aller betreuten Unternehmen und Ansprechpartner.
+- Verknüpfung historischer Tickets mit Kundenprofilen für vollständige Transparenz.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 📊 4. Dashboard & Analytics (`dashboard`)
+- Echtzeit-Statistiken über offene vs. gelöste Tickets.
+- Auswertung der durchschnittlichen Lösungszeiten und Support-Belastung.
+- Berechtigungs- und Rollenmanagement für Agenten und Administratoren.
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🛠️ Technologie-Stack (Tech Stack)
 
-## License
+| Bereich | Technologie |
+|---|---|
+| **Backend Framework** | [Laravel 11](https://laravel.com/) |
+| **Frontend Integration** | [Inertia.js](https://inertiajs.com/) & Modern Component Architecture |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Sprache** | PHP 8.2+ / Modern JavaScript |
+| **Routing & State** | Ziggy Routing, RESTful Controllers |
+| **Authentifizierung** | Laravel Sanctum / Breeze (Role-Based Access) |
+| **Hosting & Cloud** | Laravel Cloud Edge Platform |
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 💻 Lokale Installation (Local Setup)
+
+Voraussetzungen:
+- PHP >= 8.2
+- Composer
+- Node.js & npm
+- MySQL oder SQLite
+
+```bash
+# 1. Repository klonen
+git clone https://github.com/Ploger1979/project-x-ki.git
+cd project-x-ki
+
+# 2. PHP-Abhängigkeiten installieren
+composer install
+
+# 3. Frontend-Abhängigkeiten installieren
+npm install
+
+# 4. Umgebungsvariablen konfigurieren
+cp .env.example .env
+php artisan key:generate
+
+# 5. Datenbank migrieren und Testdaten einspielen
+php artisan migrate --seed
+
+# 6. Assets kompilieren & Server starten
+npm run dev
+php artisan serve
+```
+
+---
+
+## 👤 Entwickler & Kontakt (Author)
+
+**Ayman Plöger**  
+*Fachinformatiker für Anwendungsentwicklung | Full-Stack Web Developer*  
+- **Portfolio:** [aymanbyte-portfolio.netlify.app](https://aymanbyte-portfolio.netlify.app/)
+- **GitHub:** [@Ploger1979](https://github.com/Ploger1979)
+- **LinkedIn:** [Ayman Plöger](https://www.linkedin.com/in/ayman-pl%C3%B6ger/)
+- **E-Mail:** [aymanploger@gmail.com](mailto:aymanploger@gmail.com)
+
+---
+
+## 📄 Lizenz (License)
+Dieses Projekt wurde zu Ausbildungs- und Demonstrationszwecken entwickelt. Alle Rechte an Marken und Namen der Enodia Software GmbH verbleiben bei den jeweiligen Rechteinhabern.
